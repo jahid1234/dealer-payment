@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/round_corner_layout"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".activity.HomeActivity"
+    android:minWidth="300dp"
+    android:maxWidth="300dp"
+    android:minHeight="350dp"
+    android:maxHeight="350dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:background="@drawable/round_corner_layout_2"
+        >
+
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="40"
+            android:text="Payment For"
+            android:padding="5sp"
+            android:gravity="start"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            >
+        </TextView>
+
+        <TextView
+            android:text="Amount"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="25"
+            android:padding="5sp"
+            android:gravity="start"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            >
+        </TextView>
+
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="match_parent"
+           android:layout_weight="15"
+           android:textColor="@android:color/black"
+           android:text="Edit"
+           android:padding="5sp"
+           android:textStyle="bold"
+           android:layout_marginTop="10dp"
+           />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:textColor="@android:color/black"
+            android:text="Delete"
+            android:padding="5sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="55"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/payment_list_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--&gt;-->
+    <!--<ImageButton-->
+        <!--android:id="@+id/close_dialog_id"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:src="@drawable/ic_close_black_24dp"-->
+        <!--/>-->
+
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:gravity="start"
+        >
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/save_dialogBtn_id"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_weight="20"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:src="@drawable/ic_save_black_24dp"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:background="@drawable/round_corner_layout_3"-->
+        <!--/>-->
+
+        <ImageButton
+            android:id="@+id/add_total_dialogBtn_id"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_2"
+            android:textAllCaps="false"
+            android:background="#f9f5f5"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:gravity="center"
+
+        >
+
+        <ImageButton
+            android:id="@+id/close_dialogBtn_id"
+            android:layout_width="0dp"
+            android:layout_weight="20"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cancel_red_24dp"
+            android:textAllCaps="false"
+            android:background="#f9f5f5"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

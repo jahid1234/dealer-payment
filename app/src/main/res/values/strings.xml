@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">KFGDealerPayment-v1</string>
+    <string name="app_version">version-1.0</string>
+    <string-array name="product_name_array_list">
+
+
+        <item>Product 1</item>
+        <item>Product 2</item>
+        <item>Product 3</item>
+        <item>Product 4</item>
+        <item>Product 5</item>
+        <item>Product 6</item>
+        <item>Product 7</item>
+        <item>Product 8</item>
+        <item>Product 9</item>
+        <item>Product 10</item>
+        <item>Product 11</item>
+        <item>Product 12</item>
+        <item>Product 13</item>
+
+
+    </string-array>
+
+    <string-array name="notbuyKFG_reasons_array">
+
+        <item>অন্যান্য ফিড মিলগুলিতে আরও ভাল পারফর্ম করা ফিড রয়েছে</item>
+        <item>অন্যান্য ফিড মিলগুলি  ডিস্ট্রিবিউটর কমিশন আরও বেশি দেয়</item>
+        <item>অন্যান্য ফিড মিলগুলি আরও ক্রেডিট দেয়</item>
+        <item>অন্যান্য ফিডমিলগুলিতে কাছাকাছি জায়গায় ফিড গোডাউন রয়েছে</item>
+
+
+    </string-array>
+
+    <string-array name="payment_category_arrays">
+
+        <item>DOC-Broiler</item>
+        <item>DOC-Layer</item>
+        <item>Live Broiler</item>
+        <item>Culled Bird</item>
+        <item>Poultry Feed</item>
+        <item>Fish Feed</item>
+        <item>Cattle Feed</item>
+
+
+    </string-array>
+
+    <string-array name="bank_name_arrays">
+
+        <item>Sonali Bank Limited</item>
+        <item>Janata Bank Limited</item>
+        <item>Agrani Bank Limited</item>
+        <item>Rupali Bank Limited</item>
+        <item>BASIC Bank Limited</item>
+        <item>Bangladesh Development Bank</item>
+    </string-array>
+
+    <string-array name="payment_method_arrays">
+
+        <item>Cash</item>
+        <item>Cheque</item>
+        <item>Transfer</item>
+        <item>Pay order</item>
+    </string-array>
+    <string-array name="product_name_arrays">
+
+        <item>Cash</item>
+        <item>Cheque</item>
+        <item>Transfer</item>
+        <item>Pay order</item>
+    </string-array>
+
+    <string-array name="product_categorylist_arrays">
+        <item>Item All</item>
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+        <item>Item 5</item>
+        <item>Item 6</item>
+        <item>Item 7</item>
+        <item>Item 8</item>
+    </string-array>
+
+
+</resources>

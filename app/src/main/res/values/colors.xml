@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c23e37</color>
+    <color name="colorPrimaryDark">#da1b1b</color>
+    <color name="colorAccent">#CB9348</color>
+    <color name="home_background">#e4471c</color>
+    <color name="backgroundcolor">#f4f1f1</color>
+    <color name="lightorange">#ff7613</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green">#00bfa5</color>
+    <color name="red">#da1b1b</color>
+    <color name="deepgreen">#FF71F10F</color>
+    <color name="cardview">#ffea00</color>
+    <color name="recyclerview">#f2eca0</color>
+    <color name="lightred">#e26363</color>
+    <color name="productcolor">#f96125</color>
+    <color name="product_backgound_color">#e7e3e1</color>
+    <color name="category_backgound_color">#e7e3e1</color>
+    <color name="orderactivity_background">#e7e5e4</color>
+    <color name="category_recycler_background">#faf0e8</color>
+    <color name="category_linear_background">#faf0e8</color>
+    <color name="child_recyclerview_background">#f2f0ef</color>
+    <color name="product_name_color">#e4471c</color>
+    <color name="product_category_name_color">#ff6338</color>
+    <color name="category_backgound_color1">#ff6338</color>
+    <color name="cart_card_background">#e7e3e1</color>
+    <color name="status_bar_color">#ff6338</color>
+</resources>

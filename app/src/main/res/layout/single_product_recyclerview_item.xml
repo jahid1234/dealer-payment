@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--CardView that holds the elements
+        of the child RecyclerView -->
+    <android.support.v7.widget.CardView
+        android:id="@+id/product_cardView_id_single_category"
+        android:layout_width="110dp"
+        android:layout_height="170dp"
+        android:layout_margin="1dp"
+        app:cardCornerRadius="5dp"
+        app:cardBackgroundColor="@color/product_backgound_color"
+        app:cardUseCompatPadding="true"
+        app:cardElevation="10dp"
+        >
+        <!--<RelativeLayout-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp">-->
+
+            <!--Image in the CardView-->
+            <!--Here we have already given
+                the source for the ImageView
+                and we will not assign it
+                in the Java code-->
+            <!--So all the ImageViews will
+                hold the same image-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:weightSum="100"
+                >
+
+                <!--Text in the CardView-->
+
+                <TextView
+                    android:id="@+id/single_product_child_item_title_big"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="70"
+                    android:textStyle="bold"
+                    android:text="Category 1"
+                    android:gravity="center"
+                    android:textColor="@color/product_name_color"
+                    android:textSize="45sp"
+                    />
+                <TextView
+                    android:id="@+id/single_product_child_item_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="30"
+                    android:textStyle="bold"
+                    android:text="Category 1"
+                    android:gravity="center"
+                    android:textColor="@color/product_name_color"
+                    android:textSize="15sp"
+                    />
+            </LinearLayout>
+        <!--</RelativeLayout>-->
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
