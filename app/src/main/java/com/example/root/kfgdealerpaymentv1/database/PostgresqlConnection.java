@@ -15,9 +15,8 @@ public class PostgresqlConnection {
         try{
             Class.forName("org.postgresql.Driver");
 
-          //  conn = DriverManager.getConnection("jdbc:postgresql://172.16.9.200:5433/kfg_10feb2021", "adempiere", "adempiere");
 
-            conn = DriverManager.getConnection("jdbc:postgresql://172.16.253.10:5432/adempiere", "adempiere", "adempierews");
+            conn = DriverManager.getConnection("jdbc:postgresql://***.***.***.***:****/******", "*****", "******");
 
             System.out.println(conn);
 
